@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+    *{margin: 0; padding: 0;}
+
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    a:hover,a:active,a:visited,a:link {
+    color:#fff;
+    text-decoration: none;
+    }
+
+    ul li{
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr 20%;
+        height: 100vh;
+    }
+
+    main .p-def{
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+
+    main aside .sec{
+        background-color: rgba(0, 0, 0, .2);
+        padding: 10px 20px;
+        font-size: 22px;
+    }
+
+    main aside{
+        background-color: #002040;
+        color: #fff;
+    }
+
+    main aside .percent{
+        background-color: rgba(0, 0, 0, .2);
+    }
+
+    main aside .percent > div{
+        background-color: #fff;
+        height: 10px;
+    }
+
+    main section{
+        background-color: #EEEEEE;
+        padding: 20px;
+        /* color: #505050; */
+    }
+
+    main section .sec{
+        color: #002040;
+        line-height: 1.7;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-color: #eae7e7;
+        margin: 20px 0;
+    }
+
+    main section table{
+        width: 100%;
+    }
+
+    main section table tr td:nth-child(1){
+        width: 100px;
+        padding: 20px;
+        padding-top: 0;
+    }
+
+    main section table tr td{
+        vertical-align: top;
+    }
+
+    table li{
+        list-style: disc;
+        margin: 0;
+    }
+
+    main section .percent{
+        background-color: #CACCCB;
+    }
+
+    main section .percent > div{
+        background-color: #002040;
+        height: 10px;
+    }
+
+    main section ul{
+        padding-left: 20px;
+    }
+
+    main section .competencias td{
+        padding-bottom: 20px;
+    }
+
+    main section .competencias td > span{
+        display: block;
+        padding-bottom: 5px;
+    }
+
+    main section .competencias td ul{
+        margin-top: 5px;
+    }
+
+    main section .competencias td ul li{
+        font-size: 16px;
+    }
+
+
+</style>
+<body>
+
+<main>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quam qui necessitatibus neque asperiores, sunt minus sit inventore unde odit labore ea iure libero ducimus illo! Corrupti exercitationem ad unde!</p>
+        <h1 class="sec">Experiência</h1>
+        <table>
+            <tr>
+                <td>10/2019 - Atualmente</td>
+                <td>
+                    <h3>Desenvolvedor Web<br></h3>
+                    <small>Simples Inovação, Rio de Janeiro, RJ</small>
+                    <ul>
+                        <li>Trabalho com as plataformas de ecommerce <b>Loja Integrada, Xtech, Vtex, Tray e Shopify</b>.</li>
+                        <li>Desenvolvimento de temas com base em layouts desenvolvidos em Figma e Adobe XD.</li>
+                        <li>Desenvolvimento de Aplicações e Soluções para Ecommerce e Marketplaces.</li>
+                        <!--<li>Coordenar projetos e apresentar clientes.</li>-->
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <h1 class="sec">Graduação</h1>
+        <table>
+            <tr>
+                <td>2021 - Atualmente</td>
+                <td>
+                    <h3>Analise e Desenvolvimento de Sistemas<br></h3>
+                    <small>Universidade Estácio de Sá</small>
+                </td>
+            </tr>
+        </table>
+        <h1 class="sec">Competências</h1>
+        <table class="competencias">
+            <tr>
+                <td></td>
+                <td>
+                    <span>HTML</span>
+                    <div class="percent"><div style="width: 100%"></div></div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <span>CSS</span>
+                    <div class="percent"><div style="width: 95%"></div></div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <span>Javascript</span>
+                    <div class="percent"><div style="width: 90%"></div></div>
+                    <ul>
+                        <li>Js Vanilla, Jquery, NodeJs, NextJs, DiscordJs.</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <span>PHP</span>
+                    <div class="percent"><div style="width: 90%"></div></div>
+                    <ul>
+                        <li>POO, Estrutura de dados, MVC, Frameworks ..</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <span>Banco de Dados</span>
+                    <div class="percent"><div style="width: 70%"></div></div>
+                    <ul>
+                        <li>MySQL, SQL Server, MongoDB</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <h1 class="sec">Cursos e Certificados</h1>
+        <table>
+            <tr>
+                <td>2013</td>
+                <td>Gestão Empresarial</td>
+            </tr>
+            <tr>
+                <td>2014</td>
+                <td>Curso Web Design</td>
+            </tr>
+            <tr>
+                <td>2014</td>
+                <td>Curso de Informática</td>
+            </tr>
+            <tr>
+                <td>2015</td>
+                <td>Inglês, Callan Method, Intermediário</td>
+            </tr>
+        </table>
+    </section>
+    <aside>
+        <h1 class="p-def">Thiago Sales</h1>
+        <p class="p-def">Desenvolvedor Web</p>
+        <div class="sec p-def">Informações de contato</div>
+        <ul class="p-def">
+            <li>
+                <strong>Telefone</strong>
+                <p><a href="tel:21981029926">(21) 98102-9926</a></p>
+            </li>
+            <li>
+                <strong>E-mail</strong>
+                <p><a href="mailto:thiago_salests@hotmail.com">thiago_salests@hotmail.com</a></p>
+            </li>
+            <li>
+                <strong>Linkedin</strong>
+                <p><a href="https://www.linkedin.com/in/thiago-sales-449408127/" target="_blank">linkedin.com/in/thiago-sales-449408127</a></p>
+            </li>
+            <li>
+                <strong>Github</strong>
+                <p><a href="https://github.com/tsalesproductions" target="_blank">github.com/tsalesproductions</a></p>
+            </li>
+            <li>
+                <strong>Youtube</strong>
+                <p><a href="https://www.youtube.com/padilhauch" target="_blank">youtube.com/padilhauch</a></p>
+            </li>
+        </ul>
+        <div class="sec p-def">Habilidades Interpessoais</div>
+        <ul class="p-def">
+            <li>
+                <strong>Objetividade</strong>
+                <div class="percent"><div style="width: 100%"></div></div>
+            </li>
+            <li>
+                <strong>Raciocínio Rápido</strong>
+                <div class="percent"><div style="width: 100%"></div></div>
+            </li>
+            <li>
+                <strong>Proativo</strong>
+                <div class="percent"><div style="width: 100%"></div></div>
+            </li>
+            <li>
+                <strong>Trabalho em Equipe</strong>
+                <div class="percent"><div style="width: 80%"></div></div>
+            </li>
+            <li>
+                <strong>Comunicativo</strong>
+                <div class="percent"><div style="width: 60%"></div></div>
+            </li>
+        </ul>
+    </aside>
+</main>
+    
+</body>
+</html>
